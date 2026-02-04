@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Skill Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <div>
+          <p class="pill">Developer self-check</p>
+          <h1>Check your development skills with quick coding questions</h1>
+          <p class="subtitle">
+            Answer a short set of questions and get instant feedback on your
+            strengths.
+          </p>
+        </div>
+        <div class="score-card" id="scoreCard">
+          <p class="score-label">Current score</p>
+          <p class="score-value" id="scoreValue">--%</p>
+          <p class="score-meta" id="scoreMeta">No submissions yet.</p>
+        </div>
+      </header>
+
+      <section class="quiz" id="quiz"></section>
+
+      <section class="actions">
+        <button class="primary" id="submitBtn">Check my skills</button>
+        <button class="ghost" id="resetBtn">Reset answers</button>
+      </section>
+
+      <section class="results" id="results"></section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
