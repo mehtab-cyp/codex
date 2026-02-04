@@ -1,0 +1,9 @@
+{
+  "name": "dev-skill-checker",
+  "version": "1.0.0",
+  "description": "Full-stack app for checking development skills with coding questions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
